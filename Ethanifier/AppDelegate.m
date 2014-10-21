@@ -21,7 +21,7 @@
     //TODO: Replace with an app token you generate for free at http://www.supportkit.io
     SKTSettings* settings = [SKTSettings settingsWithAppToken:@"YOUR-APP-TOKEN"];
     settings.enableAppWideGesture = NO;
-    settings.enableGestureHintOnFirstLaunch = YES;
+    settings.enableGestureHintOnFirstLaunch = NO;
 
     [SupportKit initWithSettings:settings];
     

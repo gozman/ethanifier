@@ -31,6 +31,10 @@
     }
 }
 
+- (UIStatusBarStyle)preferredStatusBarStyle {
+    return UIStatusBarStyleLightContent;
+}
+
 - (void)nameChanged:(id)sender {
     if(self.firstNameField.text.length && self.lastNameField.text.length) {
         self.signInButton.enabled = YES;

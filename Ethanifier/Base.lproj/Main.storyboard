@@ -80,13 +80,13 @@
                                         </connections>
                                     </button>
                                 </subviews>
-                                <color key="backgroundColor" red="0.49803921569999998" green="0.3921568627" blue="0.72156862749999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.56862745100000001" green="0.1764705882" blue="0.55294117649999996" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="centerX" secondItem="kj6-IK-a68" secondAttribute="centerX" id="jHE-Ha-ry9"/>
                                 </constraints>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" red="0.49803921569999998" green="0.3921568627" blue="0.72156862749999995" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.56862745098039214" green="0.1764705882352941" blue="0.55294117647058827" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstAttribute="centerY" secondItem="tMS-xw-a6m" secondAttribute="centerY" id="Lbx-3I-oE3"/>
                             <constraint firstAttribute="centerX" secondItem="L9z-0L-aEY" secondAttribute="centerX" id="NuS-AL-foZ"/>
@@ -95,6 +95,7 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="cPq-U1-Lsp"/>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
                     <nil key="simulatedTopBarMetrics"/>
                     <nil key="simulatedBottomBarMetrics"/>
                     <connections>
