@@ -12,7 +12,7 @@
             <subviews>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="ethanifier" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="14m-Bj-o5h">
                     <rect key="frame" x="169" y="271" width="262" height="58"/>
-                    <fontDescription key="fontDescription" name="Futura-CondensedMedium" family="Futura" pointSize="37"/>
+                    <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="37"/>
                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <nil key="highlightedColor"/>
                 </label>
