@@ -10,21 +10,28 @@
             <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="ethanifier" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="14m-Bj-o5h">
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="ask smirnov" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="14m-Bj-o5h">
                     <rect key="frame" x="169" y="271" width="262" height="58"/>
                     <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="37"/>
                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <nil key="highlightedColor"/>
                 </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="alexis.png" translatesAutoresizingMaskIntoConstraints="NO" id="Q2x-Cd-3mR">
+                    <rect key="frame" x="200" y="69" width="200" height="200"/>
+                </imageView>
             </subviews>
-            <color key="backgroundColor" red="0.56862745100000001" green="0.1764705882" blue="0.55294117649999996" alpha="1" colorSpace="calibratedRGB"/>
+            <color key="backgroundColor" red="1" green="0.030145655374867797" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
             <constraints>
                 <constraint firstAttribute="centerY" secondItem="14m-Bj-o5h" secondAttribute="centerY" id="Ecg-nn-La5"/>
                 <constraint firstAttribute="centerX" secondItem="14m-Bj-o5h" secondAttribute="centerX" id="ZMP-Hq-I2j"/>
+                <constraint firstItem="Q2x-Cd-3mR" firstAttribute="centerX" secondItem="14m-Bj-o5h" secondAttribute="centerX" id="xOG-4M-nv0"/>
             </constraints>
             <nil key="simulatedStatusBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <point key="canvasLocation" x="548" y="455"/>
         </view>
     </objects>
+    <resources>
+        <image name="alexis.png" width="200" height="200"/>
+    </resources>
 </document>

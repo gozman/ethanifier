@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		80760130A6B076A6C439F4E8 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 851523D8DCE2A38314375438 /* libPods.a */; };
+		F5097F7F1A03AC9600E64F26 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F5097F7D1A03AC9600E64F26 /* icon@2x.png */; };
+		F5097F801A03AC9600E64F26 /* icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F5097F7E1A03AC9600E64F26 /* icon@3x.png */; };
+		F55A83A61A03A87B00CCB3D7 /* alexis.png in Resources */ = {isa = PBXBuildFile; fileRef = F55A83A41A03A87B00CCB3D7 /* alexis.png */; };
+		F55A83A71A03A87B00CCB3D7 /* alexis@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F55A83A51A03A87B00CCB3D7 /* alexis@2x.png */; };
 		F5F9E76919F44146005FEEAE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F9E76819F44146005FEEAE /* main.m */; };
 		F5F9E76C19F44146005FEEAE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F9E76B19F44146005FEEAE /* AppDelegate.m */; };
 		F5F9E76F19F44146005FEEAE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F9E76E19F44146005FEEAE /* ViewController.m */; };
@@ -20,7 +24,11 @@
 		6D3DCCE98A84130BDCA58C77 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		851523D8DCE2A38314375438 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1000C56EC8E014FDE08BCF1 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
-		F5F9E76319F44146005FEEAE /* Ethanifier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ethanifier.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5097F7D1A03AC9600E64F26 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon@2x.png"; path = "Assets/icon@2x.png"; sourceTree = "<group>"; };
+		F5097F7E1A03AC9600E64F26 /* icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon@3x.png"; path = "Assets/icon@3x.png"; sourceTree = "<group>"; };
+		F55A83A41A03A87B00CCB3D7 /* alexis.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = alexis.png; path = Assets/alexis.png; sourceTree = "<group>"; };
+		F55A83A51A03A87B00CCB3D7 /* alexis@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "alexis@2x.png"; path = "Assets/alexis@2x.png"; sourceTree = "<group>"; };
+		F5F9E76319F44146005FEEAE /* Smirnov.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smirnov.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5F9E76719F44146005FEEAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F5F9E76819F44146005FEEAE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F5F9E76A19F44146005FEEAE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -61,6 +69,17 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		F55A83A31A03A86F00CCB3D7 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				F55A83A41A03A87B00CCB3D7 /* alexis.png */,
+				F5097F7D1A03AC9600E64F26 /* icon@2x.png */,
+				F5097F7E1A03AC9600E64F26 /* icon@3x.png */,
+				F55A83A51A03A87B00CCB3D7 /* alexis@2x.png */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
 		F5F9E75A19F44146005FEEAE = {
 			isa = PBXGroup;
 			children = (
@@ -74,7 +93,7 @@
 		F5F9E76419F44146005FEEAE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F5F9E76319F44146005FEEAE /* Ethanifier.app */,
+				F5F9E76319F44146005FEEAE /* Smirnov.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -82,6 +101,7 @@
 		F5F9E76519F44146005FEEAE /* Ethanifier */ = {
 			isa = PBXGroup;
 			children = (
+				F55A83A31A03A86F00CCB3D7 /* Assets */,
 				F5F9E76A19F44146005FEEAE /* AppDelegate.h */,
 				F5F9E76B19F44146005FEEAE /* AppDelegate.m */,
 				F5F9E76D19F44146005FEEAE /* ViewController.h */,
@@ -122,7 +142,7 @@
 			);
 			name = Ethanifier;
 			productName = Ethanifier;
-			productReference = F5F9E76319F44146005FEEAE /* Ethanifier.app */;
+			productReference = F5F9E76319F44146005FEEAE /* Smirnov.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -163,8 +183,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				F5F9E77219F44146005FEEAE /* Main.storyboard in Resources */,
+				F5097F801A03AC9600E64F26 /* icon@3x.png in Resources */,
 				F5F9E77719F44147005FEEAE /* LaunchScreen.xib in Resources */,
 				F5F9E77419F44146005FEEAE /* Images.xcassets in Resources */,
+				F55A83A61A03A87B00CCB3D7 /* alexis.png in Resources */,
+				F55A83A71A03A87B00CCB3D7 /* alexis@2x.png in Resources */,
+				F5097F7F1A03AC9600E64F26 /* icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,10 +340,11 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6D3DCCE98A84130BDCA58C77 /* Pods.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = Ethanifier/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Smirnov;
 			};
 			name = Debug;
 		};
@@ -327,10 +352,11 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E1000C56EC8E014FDE08BCF1 /* Pods.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = Ethanifier/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Smirnov;
 			};
 			name = Release;
 		};
