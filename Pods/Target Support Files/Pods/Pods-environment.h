@@ -9,6 +9,6 @@
 // SupportKit
 #define COCOAPODS_POD_AVAILABLE_SupportKit
 #define COCOAPODS_VERSION_MAJOR_SupportKit 2
-#define COCOAPODS_VERSION_MINOR_SupportKit 3
-#define COCOAPODS_VERSION_PATCH_SupportKit 0
+#define COCOAPODS_VERSION_MINOR_SupportKit 6
+#define COCOAPODS_VERSION_PATCH_SupportKit 1
 

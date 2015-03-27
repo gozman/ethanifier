@@ -1,0 +1,78 @@
+/*
+ SupportKitLocalizable.strings
+ SupportKit
+ 
+ Copyright (c) 2014 Radialpoint. All rights reserved.
+ */
+
+/* Search bar placeholder */
+"Search %@ Help" = "بحث في مساعدة %@";
+
+/* Nav bar left button */
+"Close" = "إغلاق";
+
+/* Nav bar right button */
+"Cancel" = "إلغاء";
+
+/* Messages button and Conversation title */
+"Messages" = "الدردشة";
+
+/* Conversation header. Uses CFBundleDisplayName */
+"This is the start of your conversation with the %@ team. We'll stay in touch to help you get the most out of your app.\nFeel free to leave us a message about anything that’s on your mind. We’ll get back to your questions, suggestions or anything else as soon as we can." = "هذه هي بداية محادثتك مع فريق %@. سوف نبقى على اتصال معك لتتمكن من تحقيق الاستفادة القصوى من التطبيق.\nاترك لنا رسالة إن أردت، عن أي شيء يدور في خلدك. سوف نرد على أسئلتك أو اقتراحاتك أو أي شيء آخر في أقرب وقت نستطيع.";
+
+/* Error message shown in conversation view */
+"No Internet connection" = "لا يوجد اتصال بالإنترنت";
+
+/* Error message shown in conversation view */
+"Could not connect to server" = "تعذَّر الاتصال بالملقم";
+
+/* Local notification text. Uses CFBundleDisplayName */
+"Having trouble with %@? Reach out and we'll help." = "هل تواجهك مشاكل مع %@؟ اتصل بنا وسوف نقدم لك المساعدة.";
+
+/* Recommendation title */
+"Recommended For You" = "موصَى به لأجلك";
+
+/* Error displayed in the search result table view */
+"Cannot return search results" = "تعذَّرت إعادة نتائج البحث";
+
+/* Error displayed in the search result table view */
+"No results found." = "لم يتم العثور على نتائج.";
+
+/* Fallback used by the in app notification when no message author name is found */
+"%@ Team" = "فريق %@";
+
+/* Button label for the no network message in web view */
+"Reload" = "إعادة تحميل";
+
+/* No network message in web view */
+"Cannot open the page because your device is not connected to the Internet." = "تعذَّر فتح الصفحة لأن جهازك غير متصل بالإنترنت.";
+
+/* Two fingers gesture hint title */
+"Quick Tip" = "تلميحة سريعة";
+
+/* Two fingers gesture hint instructions */
+"Swipe down with two fingers to get help from anywhere. Try it above." = "امسح إلى أسفل بإصبعين للحصول على المساعدة من أي مكان. جربها بأعلاه.";
+
+/* Two fingers gesture hint skip button */
+"Skip" = "تخطي";
+
+/* webview didFailLoadWithError Alert view title */
+"Error" = "خطأ";
+
+/* webview didFailLoadWithError Alert view button */
+"Okay" = "موافق";
+
+/* Conversation send button */
+"Send" = "إرسال";
+
+/* Conversation text input place holder */
+"Type a message..." = "اكتب رسالة...";
+
+/* Conversation nav bar left button */
+"Done" = "تم";
+
+/* Failure text for chat messages that fail to upload */
+"Message not delivered. Tap to retry." = "تعذَّر تسليم الرسالة. انقر لإعادة المحاولة.";
+
+/* Status text for chat messages */
+"Sending..." = "إرسال...";

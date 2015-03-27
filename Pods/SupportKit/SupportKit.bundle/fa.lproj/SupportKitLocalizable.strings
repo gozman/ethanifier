@@ -1,0 +1,78 @@
+/*
+ SupportKitLocalizable.strings
+ SupportKit
+ 
+ Copyright (c) 2014 Radialpoint. All rights reserved.
+ */
+
+/* Search bar placeholder */
+"Search %@ Help" = "جستجو در راهنمای %@";
+
+/* Nav bar left button */
+"Close" = "بستن";
+
+/* Nav bar right button */
+"Cancel" = "لغو";
+
+/* Messages button and Conversation title */
+"Messages" = "چت";
+
+/* Conversation header. Uses CFBundleDisplayName */
+"This is the start of your conversation with the %@ team. We'll stay in touch to help you get the most out of your app.\nFeel free to leave us a message about anything that’s on your mind. We’ll get back to your questions, suggestions or anything else as soon as we can." = "این شروع مکالمه شما با تیم %@ است. ما با شما در تماس خواهیم ماند تا به شما کمک کنیم که از برنامه‌تان بیشترین بهره را ببرید.\nاگر چیزی در ذهن خود دارید، لطفاً برای ما پیامی بگذارید. ما در اسرع وقت به سؤالات، پیشنهادات یا سایر اظهارات شما رسیدگی خواهیم کرد.";
+
+/* Error message shown in conversation view */
+"No Internet connection" = "عدم اتصال به اینترنت";
+
+/* Error message shown in conversation view */
+"Could not connect to server" = "اتصال به سرور امکان‌پذیر نبود";
+
+/* Local notification text. Uses CFBundleDisplayName */
+"Having trouble with %@? Reach out and we'll help." = "با %@ مشکلی دارید؟ درخواست راهنمایی کنید و ما پاسخ خواهیم داد.";
+
+/* Recommendation title */
+"Recommended For You" = "برای شما پیشنهاد شده است";
+
+/* Error displayed in the search result table view */
+"Cannot return search results" = "امکان بازگردانی نتایج جستجو وجود ندارد";
+
+/* Error displayed in the search result table view */
+"No results found." = "هیچ نتیجه‌ای در بر نداشت.";
+
+/* Fallback used by the in app notification when no message author name is found */
+"%@ Team" = "تیم %@";
+
+/* Button label for the no network message in web view */
+"Reload" = "بارگیری مجدد";
+
+/* No network message in web view */
+"Cannot open the page because your device is not connected to the Internet." = "امکان باز کردن صفحه وجود ندارد، زیرا دستگاه شما به اینترنت متصل نیست.";
+
+/* Two fingers gesture hint title */
+"Quick Tip" = "راهنمای سریع";
+
+/* Two fingers gesture hint instructions */
+"Swipe down with two fingers to get help from anywhere. Try it above." = "برای دریافت راهنمایی از هرجا، دو انگشت خود را روی صفحه به پایین بکشید. این کار را در بالا امتحان کنید.";
+
+/* Two fingers gesture hint skip button */
+"Skip" = "پرش";
+
+/* webview didFailLoadWithError Alert view title */
+"Error" = "خطا";
+
+/* webview didFailLoadWithError Alert view button */
+"Okay" = "تأیید";
+
+/* Conversation send button */
+"Send" = "ارسال";
+
+/* Conversation text input place holder */
+"Type a message..." = "پیامی را تایپ کنید...";
+
+/* Conversation nav bar left button */
+"Done" = "انجام شد";
+
+/* Failure text for chat messages that fail to upload */
+"Message not delivered. Tap to retry." = "پیام تحویل داده نشد. برای ارسال مجدد، ضربه بزنید.";
+
+/* Status text for chat messages */
+"Sending..." = "ارسال...";

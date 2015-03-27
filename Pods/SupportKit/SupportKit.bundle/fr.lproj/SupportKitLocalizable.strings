@@ -1,0 +1,78 @@
+/*
+ SupportKitLocalizable.strings
+ SupportKit
+ 
+ Copyright (c) 2014 Radialpoint. All rights reserved.
+ */
+
+/* Search bar placeholder */
+"Search %@ Help" = "Chercher dans l'aide de %@";
+
+/* Nav bar left button */
+"Close" = "Fermer";
+
+/* Nav bar right button */
+"Cancel" = "Annuler";
+
+/* Messages button and Conversation title */
+"Messages" = "Discussion";
+
+/* Conversation header. Uses CFBundleDisplayName */
+"This is the start of your conversation with the %@ team. We'll stay in touch to help you get the most out of your app.\nFeel free to leave us a message about anything that’s on your mind. We’ll get back to your questions, suggestions or anything else as soon as we can." = "Ceci est le début de votre conversation avec l'équipe de %@. Nous garderons le contact pour vous aider à tirer le maximum de votre appli.\nN'hésitez pas à nous envoyer un message à propos de tout ce qui vous traverse l'esprit. Nous répondrons à vos questions, vos suggestions ou toute autre chose aussi vite que possible.";
+
+/* Error message shown in conversation view */
+"No Internet connection" = "Aucune connexion à internet";
+
+/* Error message shown in conversation view */
+"Could not connect to server" = "Impossible de se connecter au serveur";
+
+/* Local notification text. Uses CFBundleDisplayName */
+"Having trouble with %@? Reach out and we'll help." = "Avez-vous des problèmes avec %@ ? Contactez-nous et nous vous aiderons.";
+
+/* Recommendation title */
+"Recommended For You" = "Recommandé pour vous";
+
+/* Error displayed in the search result table view */
+"Cannot return search results" = "Impossible de retourner les résultats de recherche";
+
+/* Error displayed in the search result table view */
+"No results found." = "Aucun résultat trouvé.";
+
+/* Fallback used by the in app notification when no message author name is found */
+"%@ Team" = "Équipe de %@";
+
+/* Button label for the no network message in web view */
+"Reload" = "Recharger";
+
+/* No network message in web view */
+"Cannot open the page because your device is not connected to the Internet." = "Impossible d'ouvrir la page, car votre appareil n'est pas connecté à internet.";
+
+/* Two fingers gesture hint title */
+"Quick Tip" = "Astuce rapide";
+
+/* Two fingers gesture hint instructions */
+"Swipe down with two fingers to get help from anywhere. Try it above." = "Glissez vers le bas avec deux doigts pour obtenir de l'aide depuis partout. Essayez ci-dessous.";
+
+/* Two fingers gesture hint skip button */
+"Skip" = "Passer";
+
+/* webview didFailLoadWithError Alert view title */
+"Error" = "Erreur";
+
+/* webview didFailLoadWithError Alert view button */
+"Okay" = "OK";
+
+/* Conversation send button */
+"Send" = "Envoyer";
+
+/* Conversation text input place holder */
+"Type a message..." = "Rédigez un message...";
+
+/* Conversation nav bar left button */
+"Done" = "Terminé";
+
+/* Failure text for chat messages that fail to upload */
+"Message not delivered. Tap to retry." = "Message non livré. Touchez pour réessayer.";
+
+/* Status text for chat messages */
+"Sending..." = "Envoi...";
